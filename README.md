@@ -1,2 +1,2 @@
-# Modern-Digital-Design
+# Modern Digital Design
 Digital systems and modern design applications
