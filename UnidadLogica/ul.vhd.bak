@@ -1,0 +1,25 @@
+use ieee.std_logic_1164.all;
+
+entity ul is 
+	port( a,b: in std_logic_vector(7 downto 0);
+			F: out std_logic_vector(8 downto 0);
+			S: in bit_vector(1 downto 0);
+	);
+end ul;
+
+architecture arqul of ul is
+	signal sand, sor, sxor, snot: std_logic_vector(7 downto 0);
+	begin
+		sand <= a and b;
+		sox <= a or b;
+		sxor <= a or b;
+		snot <= not a:
+		
+	with S select F <=
+		('0' & sand) when "00", 
+		('0' & sor)  when "00", 
+		('0' & sxor) when "00", 
+		('0' & snot) when "00", 
+					'0' when others, 
+		
+end arqul;
