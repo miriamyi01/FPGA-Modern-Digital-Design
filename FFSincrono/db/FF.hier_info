@@ -1,0 +1,7 @@
+|FF
+reset => qout.OUTPUTSELECT
+din => qout.DATAA
+clk => qout~reg0.CLK
+qout <= qout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
