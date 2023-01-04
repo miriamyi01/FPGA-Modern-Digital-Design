@@ -1,2 +1,2 @@
 # Modern Digital Design 💻
-Digital systems and modern design applications
+Digital systems and modern design applications for FPGA
