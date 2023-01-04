@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity ALU is
+port (a,b: in std_logic_vector(2 downto 0);
+		sel: in std_logic_vector(1 downto 0);
+		sel2: in std_logic;
+		cin: in std_logic;
+		cout: out std_logic;
+		salALU: out std_logic_vector(2 downto 0));
+end;
+
+architecture arqALU of ALU is
+signal UA: std_logic_vector(2 downto 0);
+signal UL: std_logic_vector(2 downto 0);
+	begin
+		u0: entity work.UA(arqUA) port map (a,b,sel,cin,UA,cout);
+		u1: entity work.UL(arqUL) port map (a,b,sel,UL);
+		u2: entity work.MUX2x1(arqMUX2x1) port map (UL,UA,sel2,salALU);
+end;

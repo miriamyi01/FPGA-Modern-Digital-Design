@@ -1,0 +1,121 @@
+|ALU
+a[0] => ua:u0.a[0]
+a[0] => ul:u1.a[0]
+a[1] => ua:u0.a[1]
+a[1] => ul:u1.a[1]
+a[2] => ua:u0.a[2]
+a[2] => ul:u1.a[2]
+b[0] => ua:u0.b[0]
+b[0] => ul:u1.b[0]
+b[1] => ua:u0.b[1]
+b[1] => ul:u1.b[1]
+b[2] => ua:u0.b[2]
+b[2] => ul:u1.b[2]
+cin => ua:u0.cin
+sel[0] => ua:u0.sel[0]
+sel[0] => ul:u1.sel[0]
+sel[1] => ua:u0.sel[1]
+sel[1] => ul:u1.sel[1]
+sel[2] => mux2x1:u2.sel2
+salALU[0] << mux2x1:u2.salmux2[0]
+salALU[1] << mux2x1:u2.salmux2[1]
+salALU[2] << mux2x1:u2.salmux2[2]
+cout << ua:u0.cout
+
+
+|ALU|UA:u0
+a[0] => sum:u2.a[0]
+a[1] => sum:u2.a[1]
+a[2] => sum:u2.a[2]
+b[0] => mux4x1:u1.b[0]
+b[1] => mux4x1:u1.b[1]
+b[2] => mux4x1:u1.b[2]
+sel[0] => mux4x1:u1.sel[0]
+sel[1] => mux4x1:u1.sel[1]
+cin => sum:u2.cin
+salua[0] <= sum:u2.salsum[0]
+salua[1] <= sum:u2.salsum[1]
+salua[2] <= sum:u2.salsum[2]
+cout <= sum:u2.cout
+
+
+|ALU|UA:u0|MUX4x1:u1
+b[0] => Mux2.IN3
+b[0] => Mux2.IN2
+b[1] => Mux1.IN3
+b[1] => Mux1.IN2
+b[2] => Mux0.IN3
+b[2] => Mux0.IN2
+sel[0] => Mux0.IN5
+sel[0] => Mux1.IN5
+sel[0] => Mux2.IN5
+sel[1] => Mux0.IN4
+sel[1] => Mux1.IN4
+sel[1] => Mux2.IN4
+salmux[0] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+salmux[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+salmux[2] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|UA:u0|SUM:u2
+a[0] => Add0.IN3
+a[1] => Add0.IN2
+a[2] => Add0.IN1
+b[0] => Add0.IN6
+b[1] => Add0.IN5
+b[2] => Add0.IN4
+cin => Add1.IN8
+salsum[0] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+salsum[1] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+salsum[2] <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+cout <= Add1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|UL:u1
+a[0] => sand[0].IN0
+a[0] => sor[0].IN0
+a[0] => sxor[0].IN0
+a[0] => Mux2.IN5
+a[1] => sand[1].IN0
+a[1] => sor[1].IN0
+a[1] => sxor[1].IN0
+a[1] => Mux1.IN5
+a[2] => sand[2].IN0
+a[2] => sor[2].IN0
+a[2] => sxor[2].IN0
+a[2] => Mux0.IN5
+b[0] => sand[0].IN1
+b[0] => sor[0].IN1
+b[0] => sxor[0].IN1
+b[1] => sand[1].IN1
+b[1] => sor[1].IN1
+b[1] => sxor[1].IN1
+b[2] => sand[2].IN1
+b[2] => sor[2].IN1
+b[2] => sxor[2].IN1
+sel[0] => Mux0.IN1
+sel[0] => Mux1.IN1
+sel[0] => Mux2.IN1
+sel[1] => Mux0.IN0
+sel[1] => Mux1.IN0
+sel[1] => Mux2.IN0
+salmux[0] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+salmux[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+salmux[2] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ALU|MUX2x1:u2
+UA[0] => salmux2.DATAB
+UA[1] => salmux2.DATAB
+UA[2] => salmux2.DATAB
+UL[0] => salmux2.DATAA
+UL[1] => salmux2.DATAA
+UL[2] => salmux2.DATAA
+sel2 => salmux2.OUTPUTSELECT
+sel2 => salmux2.OUTPUTSELECT
+sel2 => salmux2.OUTPUTSELECT
+salmux2[0] <= salmux2.DB_MAX_OUTPUT_PORT_TYPE
+salmux2[1] <= salmux2.DB_MAX_OUTPUT_PORT_TYPE
+salmux2[2] <= salmux2.DB_MAX_OUTPUT_PORT_TYPE
+
+
