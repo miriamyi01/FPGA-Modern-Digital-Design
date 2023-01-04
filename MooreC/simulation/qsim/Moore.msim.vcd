@@ -1,0 +1,266 @@
+$comment
+	File created using the following command:
+		vcd file Moore.msim.vcd -direction
+$end
+$date
+	Sun Apr 17 11:52:48 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module moorec_vhd_vec_tst $end
+$var wire 1 ! clk $end
+$var wire 1 " Q0 $end
+$var wire 1 # Q1 $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var wire 1 ' devoe $end
+$var wire 1 ( devclrn $end
+$var wire 1 ) devpor $end
+$var wire 1 * ww_devoe $end
+$var wire 1 + ww_devclrn $end
+$var wire 1 , ww_devpor $end
+$var wire 1 - ww_clk $end
+$var wire 1 . \Q0~input_o\ $end
+$var wire 1 / \Q1~input_o\ $end
+$var wire 1 0 \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 1 \clk~input_o\ $end
+$var wire 1 2 \clk~inputCLKENA0_outclk\ $end
+$var wire 1 3 \u2|Q~0_combout\ $end
+$var wire 1 4 \u2|Q~q\ $end
+$var wire 1 5 \u2|Q~DUPLICATE_q\ $end
+$var wire 1 6 \u1|D1~combout\ $end
+$var wire 1 7 \u3|Q~q\ $end
+$var wire 1 8 \u2|ALT_INV_Q~DUPLICATE_q\ $end
+$var wire 1 9 \u3|ALT_INV_Q~q\ $end
+$var wire 1 : \u2|ALT_INV_Q~q\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+1%
+x&
+1'
+1(
+1)
+1*
+1+
+1,
+0-
+0.
+0/
+x0
+01
+02
+13
+04
+05
+06
+07
+18
+19
+1:
+$end
+#500000
+1!
+1-
+11
+12
+14
+15
+08
+0:
+03
+16
+1"
+1.
+#1000000
+0!
+0-
+01
+02
+#1500000
+1!
+1-
+11
+12
+04
+05
+17
+09
+18
+1:
+13
+1#
+0"
+0.
+1/
+#2000000
+0!
+0-
+01
+02
+#2500000
+1!
+1-
+11
+12
+14
+15
+08
+0:
+03
+06
+1"
+1.
+#3000000
+0!
+0-
+01
+02
+#3500000
+1!
+1-
+11
+12
+04
+05
+07
+19
+18
+1:
+13
+0#
+0"
+0.
+0/
+#4000000
+0!
+0-
+01
+02
+#4500000
+1!
+1-
+11
+12
+14
+15
+08
+0:
+03
+16
+1"
+1.
+#5000000
+0!
+0-
+01
+02
+#5500000
+1!
+1-
+11
+12
+04
+05
+17
+09
+18
+1:
+13
+1#
+0"
+0.
+1/
+#6000000
+0!
+0-
+01
+02
+#6500000
+1!
+1-
+11
+12
+14
+15
+08
+0:
+03
+06
+1"
+1.
+#7000000
+0!
+0-
+01
+02
+#7500000
+1!
+1-
+11
+12
+04
+05
+07
+19
+18
+1:
+13
+0#
+0"
+0.
+0/
+#8000000
+0!
+0-
+01
+02
+#8500000
+1!
+1-
+11
+12
+14
+15
+08
+0:
+03
+16
+1"
+1.
+#9000000
+0!
+0-
+01
+02
+#9500000
+1!
+1-
+11
+12
+04
+05
+17
+09
+18
+1:
+13
+1#
+0"
+0.
+1/
+#10000000

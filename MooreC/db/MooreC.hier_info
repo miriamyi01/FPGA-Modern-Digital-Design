@@ -1,0 +1,27 @@
+|MooreC
+clk => ffd:u2.clk
+clk => ffd:u3.clk
+Q0 <> Q0
+Q1 <> Q1
+
+
+|MooreC|combinacional:u1
+Q0 => D1.IN0
+Q0 => DO.DATAIN
+Q1 => D1.IN1
+DO <= Q0.DB_MAX_OUTPUT_PORT_TYPE
+D1 <= D1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MooreC|FFD:u2
+d => Q~reg0.DATAIN
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|MooreC|FFD:u3
+d => Q~reg0.DATAIN
+clk => Q~reg0.CLK
+Q <= Q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
