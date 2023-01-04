@@ -1,0 +1,35 @@
+|FFJK
+clk => moorejk:u2.clk
+clk => moorejk:u3.clk
+SQ1 <= SQ1.DB_MAX_OUTPUT_PORT_TYPE
+SQ0 <= SQ0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FFJK|combinacional:u1
+notQ0 <> <UNC>
+notQ1 <> <UNC>
+Q1 <> <UNC>
+J0 <= <VCC>
+J1 <= J1.DB_MAX_OUTPUT_PORT_TYPE
+K0 <= <VCC>
+K1 <= K1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FFJK|mooreJK:u2
+clk => notQ~reg0.CLK
+clk => Q~reg0.CLK
+J => Q.IN1
+K => Q.IN1
+Q <> Q~reg0
+notQ <> notQ~reg0
+
+
+|FFJK|mooreJK:u3
+clk => notQ~reg0.CLK
+clk => Q~reg0.CLK
+J => Q.IN1
+K => Q.IN1
+Q <> Q~reg0
+notQ <> notQ~reg0
+
+

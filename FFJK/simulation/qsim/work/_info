@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/miria/DDM/FFJK/simulation/qsim
+Effjk
+Z1 w1650240453
+Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 OGn598C_0mX<WSGfCb?AK2
+Z3 DPx8 cyclonev 19 cyclonev_components 0 22 CcdNAEi>PYH4@n><]NQ]V2
+Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 QZo1Vh6en2ZO3=hNmAfQ>0
+Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z6 DPx6 altera 11 dffeas_pack 0 22 :S1C`o89Vbe5bV6`:6CaB3
+Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z10 DPx6 altera 28 altera_primitives_components 0 22 z?[99Tn<@QGNik3V1c6ah1
+R0
+Z11 8FFJK.vho
+Z12 FFFJK.vho
+l0
+L39
+V`QKn>l`l>@fh;0_ZM<Y981
+!s100 5IB`0N?ieLMXc;Cn=<P661
+Z13 OV;C;10.5b;63
+32
+Z14 !s110 1650240460
+!i10b 1
+Z15 !s108 1650240459.000000
+Z16 !s90 -work|work|FFJK.vho|
+Z17 !s107 FFJK.vho|
+!i113 1
+Z18 o-work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+DEx4 work 4 ffjk 0 22 `QKn>l`l>@fh;0_ZM<Y981
+l78
+L53
+V>X>5i2DDma<<ekDadCJRA1
+!s100 ;<[PeYZOEco@<M94dE=C70
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R18
+R19
+Effjk_vhd_vec_tst
+Z20 w1650240451
+R8
+R9
+R0
+Z21 8Simulacion.vwf.vht
+Z22 FSimulacion.vwf.vht
+l0
+L32
+V3:6RdR^Q`P7HT=lSRc^AE3
+!s100 5DUo]Ea`HgC]4XR3^J@VV3
+R13
+32
+R14
+!i10b 1
+Z23 !s108 1650240460.000000
+Z24 !s90 -work|work|Simulacion.vwf.vht|
+Z25 !s107 Simulacion.vwf.vht|
+!i113 1
+R18
+R19
+Affjk_arch
+R8
+R9
+DEx4 work 16 ffjk_vhd_vec_tst 0 22 3:6RdR^Q`P7HT=lSRc^AE3
+l47
+L34
+V:bK@_>4]9gaaFN5OLOBQU3
+!s100 dlNC8UWd:N3HU[D?E_zzl0
+R13
+32
+R14
+!i10b 1
+R23
+R24
+R25
+!i113 1
+R18
+R19
