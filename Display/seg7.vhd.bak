@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity seg7 is
+port(
+	bcd: in std_logic_vector(3 downto 0);
+	HEX: out std_logic_vector(6 downto 0)
+);
+end;
+
+architecture seg7 is
+begin
+	with bcd select
+	HEX<= 
+		"1000000" when "0000",
+		"1111001" when "0001",
+		"0100100" when "0010",
+		"0110000" when "0011",
+		"0011001" When "0100",
+		"0010010" When "0101",
+		"0000010" When "0110",
+		"1111000" When "0111",
+		"0000000" When "1000",
+		"0011000" When "1001",
+		"0000000" When others;
+end;
