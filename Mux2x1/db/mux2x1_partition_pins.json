@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "salmux2x1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "salmux2x1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "salmux2x1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "b[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sel",
+					"strict" : false
+				},
+				{
+					"name" : "b[1]",
+					"strict" : false
+				},
+				{
+					"name" : "b[2]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
