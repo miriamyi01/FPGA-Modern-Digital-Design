@@ -1,0 +1,152 @@
+$comment
+	File created using the following command:
+		vcd file Suma1.msim.vcd -direction
+$end
+$date
+	Sun Sep 04 20:35:27 2022
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module sum2_vhd_vec_tst $end
+$var wire 1 ! a [2] $end
+$var wire 1 " a [1] $end
+$var wire 1 # a [0] $end
+$var wire 1 $ b [2] $end
+$var wire 1 % b [1] $end
+$var wire 1 & b [0] $end
+$var wire 1 ' cin $end
+$var wire 1 ( cout $end
+$var wire 1 ) salsum [2] $end
+$var wire 1 * salsum [1] $end
+$var wire 1 + salsum [0] $end
+
+$scope module i1 $end
+$var wire 1 , gnd $end
+$var wire 1 - vcc $end
+$var wire 1 . unknown $end
+$var wire 1 / devoe $end
+$var wire 1 0 devclrn $end
+$var wire 1 1 devpor $end
+$var wire 1 2 ww_devoe $end
+$var wire 1 3 ww_devclrn $end
+$var wire 1 4 ww_devpor $end
+$var wire 1 5 ww_a [2] $end
+$var wire 1 6 ww_a [1] $end
+$var wire 1 7 ww_a [0] $end
+$var wire 1 8 ww_b [2] $end
+$var wire 1 9 ww_b [1] $end
+$var wire 1 : ww_b [0] $end
+$var wire 1 ; ww_cin $end
+$var wire 1 < ww_salsum [2] $end
+$var wire 1 = ww_salsum [1] $end
+$var wire 1 > ww_salsum [0] $end
+$var wire 1 ? ww_cout $end
+$var wire 1 @ \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [4] $end
+$var wire 1 A \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [3] $end
+$var wire 1 B \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [2] $end
+$var wire 1 C \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [1] $end
+$var wire 1 D \~QUARTUS_CREATED_ADC1~_CHSEL_bus\ [0] $end
+$var wire 1 E \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [4] $end
+$var wire 1 F \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [3] $end
+$var wire 1 G \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [2] $end
+$var wire 1 H \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [1] $end
+$var wire 1 I \~QUARTUS_CREATED_ADC2~_CHSEL_bus\ [0] $end
+$var wire 1 J \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 K \~QUARTUS_CREATED_UNVM~~busy\ $end
+$var wire 1 L \~QUARTUS_CREATED_ADC1~~eoc\ $end
+$var wire 1 M \~QUARTUS_CREATED_ADC2~~eoc\ $end
+$var wire 1 N \salsum[0]~output_o\ $end
+$var wire 1 O \salsum[1]~output_o\ $end
+$var wire 1 P \salsum[2]~output_o\ $end
+$var wire 1 Q \cout~output_o\ $end
+$var wire 1 R \a[0]~input_o\ $end
+$var wire 1 S \b[0]~input_o\ $end
+$var wire 1 T \cin~input_o\ $end
+$var wire 1 U \Add0~1_cout\ $end
+$var wire 1 V \Add0~2_combout\ $end
+$var wire 1 W \b[1]~input_o\ $end
+$var wire 1 X \a[1]~input_o\ $end
+$var wire 1 Y \Add0~3\ $end
+$var wire 1 Z \Add0~4_combout\ $end
+$var wire 1 [ \a[2]~input_o\ $end
+$var wire 1 \ \b[2]~input_o\ $end
+$var wire 1 ] \Add0~5\ $end
+$var wire 1 ^ \Add0~6_combout\ $end
+$var wire 1 _ \Add0~7\ $end
+$var wire 1 ` \Add0~8_combout\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1'
+1(
+0,
+1-
+x.
+1/
+10
+11
+12
+13
+14
+1;
+1?
+0J
+zK
+zL
+zM
+0N
+0O
+0P
+1Q
+1R
+0S
+1T
+1U
+0V
+0W
+1X
+0Y
+0Z
+0[
+1\
+1]
+0^
+0_
+1`
+0!
+1"
+1#
+1$
+0%
+0&
+0)
+0*
+0+
+05
+16
+17
+18
+09
+0:
+0<
+0=
+0>
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+$end
+#1000000
