@@ -1,0 +1,149 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'vga_controller:u2|disp_ena'
+Slack : -8.875
+TNS   : -8.875
+
+Type  : Slow 1200mV 85C Model Setup 'Gen25MHz:u1|clk25MHz~reg0'
+Slack : -4.360
+TNS   : -139.736
+
+Type  : Slow 1200mV 85C Model Setup 'input_clk'
+Slack : -3.768
+TNS   : -44.390
+
+Type  : Slow 1200mV 85C Model Setup 'relojlento:u4|led'
+Slack : -2.817
+TNS   : -50.848
+
+Type  : Slow 1200mV 85C Model Hold 'Gen25MHz:u1|clk25MHz~reg0'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'relojlento:u4|led'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'input_clk'
+Slack : 0.630
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'vga_controller:u2|disp_ena'
+Slack : 4.469
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'input_clk'
+Slack : -3.000
+TNS   : -36.672
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'Gen25MHz:u1|clk25MHz~reg0'
+Slack : -1.403
+TNS   : -61.732
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'relojlento:u4|led'
+Slack : -1.403
+TNS   : -28.060
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga_controller:u2|disp_ena'
+Slack : 0.468
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'vga_controller:u2|disp_ena'
+Slack : -8.040
+TNS   : -8.040
+
+Type  : Slow 1200mV 0C Model Setup 'Gen25MHz:u1|clk25MHz~reg0'
+Slack : -3.917
+TNS   : -124.828
+
+Type  : Slow 1200mV 0C Model Setup 'input_clk'
+Slack : -3.435
+TNS   : -38.619
+
+Type  : Slow 1200mV 0C Model Setup 'relojlento:u4|led'
+Slack : -2.481
+TNS   : -44.401
+
+Type  : Slow 1200mV 0C Model Hold 'Gen25MHz:u1|clk25MHz~reg0'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'relojlento:u4|led'
+Slack : 0.306
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'input_clk'
+Slack : 0.584
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vga_controller:u2|disp_ena'
+Slack : 4.145
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'input_clk'
+Slack : -3.000
+TNS   : -36.672
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'Gen25MHz:u1|clk25MHz~reg0'
+Slack : -1.403
+TNS   : -61.732
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'relojlento:u4|led'
+Slack : -1.403
+TNS   : -28.060
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga_controller:u2|disp_ena'
+Slack : 0.487
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'vga_controller:u2|disp_ena'
+Slack : -3.572
+TNS   : -3.572
+
+Type  : Fast 1200mV 0C Model Setup 'Gen25MHz:u1|clk25MHz~reg0'
+Slack : -1.268
+TNS   : -32.585
+
+Type  : Fast 1200mV 0C Model Setup 'input_clk'
+Slack : -1.123
+TNS   : -5.990
+
+Type  : Fast 1200mV 0C Model Setup 'relojlento:u4|led'
+Slack : -0.640
+TNS   : -10.097
+
+Type  : Fast 1200mV 0C Model Hold 'Gen25MHz:u1|clk25MHz~reg0'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'relojlento:u4|led'
+Slack : 0.148
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'input_clk'
+Slack : 0.243
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'vga_controller:u2|disp_ena'
+Slack : 2.312
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'input_clk'
+Slack : -3.000
+TNS   : -27.796
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'Gen25MHz:u1|clk25MHz~reg0'
+Slack : -1.000
+TNS   : -44.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'relojlento:u4|led'
+Slack : -1.000
+TNS   : -20.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga_controller:u2|disp_ena'
+Slack : 0.448
+TNS   : 0.000
+
+------------------------------------------------------------
