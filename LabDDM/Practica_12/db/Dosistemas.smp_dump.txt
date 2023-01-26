@@ -1,0 +1,9 @@
+
+State Machine - |dosistemas|epresente
+Name epresente.s0 epresente.s1 epresente.s2 epresente.s3 epresente.s4 epresente.s5 
+epresente.s5 0 0 0 0 0 0 
+epresente.s4 0 0 0 0 1 1 
+epresente.s3 0 0 0 1 0 1 
+epresente.s2 0 0 1 0 0 1 
+epresente.s1 0 1 0 0 0 1 
+epresente.s0 1 0 0 0 0 1 

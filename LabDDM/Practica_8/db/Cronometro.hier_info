@@ -1,0 +1,45 @@
+|Cronometro
+reloj => \Divi:cuenta[0].CLK
+reloj => \Divi:cuenta[1].CLK
+reloj => \Divi:cuenta[2].CLK
+reloj => \Divi:cuenta[3].CLK
+reloj => \Divi:cuenta[4].CLK
+reloj => \Divi:cuenta[5].CLK
+reloj => \Divi:cuenta[6].CLK
+reloj => \Divi:cuenta[7].CLK
+reloj => \Divi:cuenta[8].CLK
+reloj => \Divi:cuenta[9].CLK
+reloj => \Divi:cuenta[10].CLK
+reloj => \Divi:cuenta[11].CLK
+reloj => \Divi:cuenta[12].CLK
+reloj => \Divi:cuenta[13].CLK
+reloj => \Divi:cuenta[14].CLK
+reloj => \Divi:cuenta[15].CLK
+reloj => \Divi:cuenta[16].CLK
+reloj => \Divi:cuenta[17].CLK
+reloj => \Divi:cuenta[18].CLK
+reloj => \Divi:cuenta[19].CLK
+reloj => \Divi:cuenta[20].CLK
+reloj => \Divi:cuenta[21].CLK
+reloj => \Divi:cuenta[22].CLK
+reloj => \Divi:cuenta[23].CLK
+reloj => \Divi:cuenta[24].CLK
+reloj => \Divi:cuenta[25].CLK
+reloj => \Divi:cuenta[26].CLK
+reloj => \Divi:cuenta[27].CLK
+display1[0] << Mux6.DB_MAX_OUTPUT_PORT_TYPE
+display1[1] << Mux5.DB_MAX_OUTPUT_PORT_TYPE
+display1[2] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
+display1[3] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+display1[4] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+display1[5] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+display1[6] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+display2[0] << Mux13.DB_MAX_OUTPUT_PORT_TYPE
+display2[1] << Mux12.DB_MAX_OUTPUT_PORT_TYPE
+display2[2] << Mux11.DB_MAX_OUTPUT_PORT_TYPE
+display2[3] << Mux10.DB_MAX_OUTPUT_PORT_TYPE
+display2[4] << Mux9.DB_MAX_OUTPUT_PORT_TYPE
+display2[5] << Mux8.DB_MAX_OUTPUT_PORT_TYPE
+display2[6] << Mux7.DB_MAX_OUTPUT_PORT_TYPE
+
+
